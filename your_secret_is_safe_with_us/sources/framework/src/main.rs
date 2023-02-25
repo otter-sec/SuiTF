@@ -200,9 +200,9 @@ fn handle_client(mut stream: TcpStream) {
 
 fn main() -> Result<(), Box<dyn Error>> {
 
-    // create socket on port 31339
-    let listener = TcpListener::bind("0.0.0.0:31339")?;
-    println!("[SERVER] Starting server at port 31339!");
+    // create socket on port 31337
+    let listener = TcpListener::bind("0.0.0.0:31337")?;
+    println!("[SERVER] Starting server at port 31337!");
 
     // wait for framework-solve to send solution
     for stream in listener.incoming() {

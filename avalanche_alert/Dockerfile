@@ -15,5 +15,14 @@ RUN mv sui /bin
 RUN git clone https://github.com/MystenLabs/sui.git --branch devnet
 RUN git clone https://github.com/otter-sec/sui-ctf-framework.git
 
-WORKDIR /work
-CMD /work/run_server.sh
+WORKDIR /work 
+
+ADD ./sources/ /work
+
+WORKDIR /work/framework/chall
+RUN sui move build
+
+WORKDIR /work/framework
+RUN cargo build --release
+
+CMD cargo r --release

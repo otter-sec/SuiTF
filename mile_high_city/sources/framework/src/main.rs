@@ -21,9 +21,6 @@ fn handle_client(mut stream: TcpStream) {
         Ok(solution_size) => {
             
             // Initialize accounts challenge & solver
-            // 0x71EC6A1723A2C1E61444626D6A90D65F2B750D68
-            // 0x13F682AF23D26CB5415819A2B1C970A36EB2F2C
-            // 0x7712D02E8B2F08D9AB748BCF206BDA1F5CA6190B
             let na_name : Vec<&str> = ["suitfch", "suitfsol"].to_vec();
             let na_addr : Vec<[u8; 20]> = [
                 [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -94,9 +91,9 @@ fn handle_client(mut stream: TcpStream) {
 
 fn main() -> Result<(), Box<dyn Error>> {
 
-    // create socket on port 31338
-    let listener = TcpListener::bind("0.0.0.0:31338")?;
-    println!("[SERVER] Starting server at port 31338!");
+    // create socket on port 31337
+    let listener = TcpListener::bind("0.0.0.0:31337")?;
+    println!("[SERVER] Starting server at port 31337!");
 
     // wait for framework-solve to send solution
     for stream in listener.incoming() {
