@@ -1,0 +1,9 @@
+[package]
+name = 'MileHighCity'
+version = '1.0.0'
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+
+[addresses]
+suitfch =  "2aa007bc6e1f64acda5fa261153fd4614794de4b"

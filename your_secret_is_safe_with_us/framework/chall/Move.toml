@@ -1,0 +1,9 @@
+[package]
+name = 'SafeSecret'
+version = '1.0.0'
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+
+[addresses]
+suitfch =  "0000000000000000000000000000000000000000"
