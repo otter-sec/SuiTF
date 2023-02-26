@@ -160,7 +160,7 @@ dependencies = [
  "prettyplease",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -311,7 +311,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "db02d390bf6643fb404d3d22d31aee1c4bc4459600aef9113833d17e786c6e44"
 dependencies = [
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -323,7 +323,7 @@ dependencies = [
  "num-bigint",
  "num-traits 0.2.15",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -387,7 +387,7 @@ checksum = "8dd4e5f0bf8285d5ed538d27fab7411f3e297908fd93c62195de8bee3f199e82"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -443,7 +443,7 @@ dependencies = [
  "num-traits 0.2.15",
  "rusticata-macros",
  "thiserror",
- "time 0.3.19",
+ "time 0.3.20",
 ]
 
 [[package]]
@@ -454,7 +454,7 @@ checksum = "726535892e8eae7e70657b4c8ea93d26b8553afb1ce617caee529ef96d7dee6c"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
  "synstructure",
 ]
 
@@ -466,7 +466,7 @@ checksum = "2777730b2039ac0f95f093556e61b6d26cebed5393ca6f152717777cec3a42ed"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -515,7 +515,7 @@ checksum = "3b015a331cc64ebd1774ba119538573603427eaace0a1950c423ab971f903796"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -537,7 +537,7 @@ checksum = "e4655ae1a7b0cdf149156f780c5bf3f1352bc53cbd9e0a361a7ef7b22947e965"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -553,7 +553,7 @@ checksum = "1cd7fce9ba8c3c042128ce72d8b2ddbf3a05747efb67ea0313c635e10bda47a2"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -609,9 +609,9 @@ dependencies = [
 
 [[package]]
 name = "axum"
-version = "0.6.7"
+version = "0.6.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2fb79c228270dcf2426e74864cabc94babb5dbab01a4314e702d2f16540e1591"
+checksum = "2bd379e511536bad07447f899300aa526e9bae8e6f66dc5e5ca45d7587b7c1ec"
 dependencies = [
  "async-trait",
  "axum-core",
@@ -791,7 +791,7 @@ checksum = "3deeecb812ca5300b7d3f66f730cc2ebd3511c3d36c691dd79c165d5b19a26e3"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -826,7 +826,7 @@ dependencies = [
  "regex",
  "rustc-hash",
  "shlex",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -1348,7 +1348,7 @@ dependencies = [
  "proc-macro-error",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -1361,7 +1361,7 @@ dependencies = [
  "proc-macro-error",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -1862,7 +1862,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6d2301688392eb071b0bf1a37be05c469d3cc4dbbd95df672fe28ab021e6a096"
 dependencies = [
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -1926,7 +1926,7 @@ dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
  "scratch",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -1943,7 +1943,7 @@ checksum = "086c685979a698443656e5cf7856c95c642295a38599f12fb1ff76fb28d19892"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -1967,7 +1967,7 @@ dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
  "strsim 0.10.0",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -1978,7 +1978,7 @@ checksum = "b36230598a2d5de7ec1c6f51f72d8a99a9208daff41de2084d06e3fd3ea56685"
 dependencies = [
  "darling_core",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2017,7 +2017,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a5bbed42daaa95e780b60a50546aa345b8413a1e46f9a40a12907d3598f038db"
 dependencies = [
  "data-encoding",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2078,7 +2078,7 @@ checksum = "fcc3dd5e9e9c0b295d6e1e4d811fb6f157d5ffd784b8d202fc62eac8035a770b"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2089,7 +2089,7 @@ checksum = "e79116f119dd1dba1abf1f3405f03b9b0e79a27a3883864bfebded8a3dc768cd"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2110,7 +2110,7 @@ dependencies = [
  "darling",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2120,7 +2120,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ebcda35c7a396850a55ffeac740804b40ffec779b98fffbb1738f4033f0ee79e"
 dependencies = [
  "derive_builder_core",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2133,7 +2133,7 @@ dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
  "rustc_version 0.4.0",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2184,7 +2184,7 @@ dependencies = [
  "proc-macro-error",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2301,7 +2301,7 @@ checksum = "3bf95dc3f046b9da4f2d51833c0d3547d8564ef6910f5c1ed130306a75b92886"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2345,7 +2345,7 @@ dependencies = [
  "nom 6.1.2",
  "rust_decimal",
  "serde 1.0.152",
- "time 0.3.19",
+ "time 0.3.20",
 ]
 
 [[package]]
@@ -2482,7 +2482,7 @@ dependencies = [
  "once_cell",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2649,7 +2649,7 @@ dependencies = [
  "convert_case 0.6.0",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -2931,7 +2931,7 @@ checksum = "95a73af87da33b5acf53acfebdc339fe592ecf5357ac7c0a7734ab9d8c876a70"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -3042,7 +3042,7 @@ dependencies = [
  "proc-macro-hack",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -3587,7 +3587,7 @@ checksum = "11d7a9f6330b71fea57921c9b61c47ee6e84f72d394754eff6163ae67e7395eb"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -3902,7 +3902,7 @@ dependencies = [
  "proc-macro-crate",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -4315,7 +4315,7 @@ dependencies = [
  "cfg-if",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -5037,7 +5037,7 @@ dependencies = [
 [[package]]
 name = "msim"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/mysten-sim.git?rev=d9f001161fb8c8362c8644013bb7dc1572bbeb45#d9f001161fb8c8362c8644013bb7dc1572bbeb45"
+source = "git+https://github.com/MystenLabs/mysten-sim.git?rev=888a9dc4331b0ed944bd6e37bac982bbcf0625d5#888a9dc4331b0ed944bd6e37bac982bbcf0625d5"
 dependencies = [
  "ahash 0.7.6",
  "async-task",
@@ -5067,12 +5067,12 @@ dependencies = [
 [[package]]
 name = "msim-macros"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/mysten-sim.git?rev=d9f001161fb8c8362c8644013bb7dc1572bbeb45#d9f001161fb8c8362c8644013bb7dc1572bbeb45"
+source = "git+https://github.com/MystenLabs/mysten-sim.git?rev=888a9dc4331b0ed944bd6e37bac982bbcf0625d5#888a9dc4331b0ed944bd6e37bac982bbcf0625d5"
 dependencies = [
  "darling",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -5125,7 +5125,7 @@ dependencies = [
  "proc-macro-error",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
  "synstructure",
 ]
 
@@ -5138,7 +5138,7 @@ checksum = "e5ce46fe64a9d73be07dcbe690a38ce1b293be448fd8ce1e6c1b8062c9f72c6a"
 [[package]]
 name = "mysten-metrics"
 version = "0.7.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "dashmap",
  "futures",
@@ -5157,7 +5157,7 @@ dependencies = [
 [[package]]
 name = "mysten-network"
 version = "0.2.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "bincode",
  "bytes",
@@ -5179,7 +5179,7 @@ dependencies = [
 [[package]]
 name = "mysten-util-mem"
 version = "0.11.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "cfg-if",
  "ed25519-consensus",
@@ -5198,10 +5198,10 @@ dependencies = [
 [[package]]
 name = "mysten-util-mem-derive"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "proc-macro2 1.0.51",
- "syn 1.0.108",
+ "syn 1.0.109",
  "synstructure",
  "workspace-hack",
 ]
@@ -5229,7 +5229,7 @@ dependencies = [
 [[package]]
 name = "narwhal-config"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "arc-swap",
  "fastcrypto",
@@ -5248,7 +5248,7 @@ dependencies = [
 [[package]]
 name = "narwhal-consensus"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "arc-swap",
  "bincode",
@@ -5277,7 +5277,7 @@ dependencies = [
 [[package]]
 name = "narwhal-crypto"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "eyre",
  "fastcrypto",
@@ -5296,7 +5296,7 @@ dependencies = [
 [[package]]
 name = "narwhal-dag"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "arc-swap",
  "dashmap",
@@ -5314,7 +5314,7 @@ dependencies = [
 [[package]]
 name = "narwhal-executor"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anemo",
  "anemo-tower",
@@ -5353,7 +5353,7 @@ dependencies = [
 [[package]]
 name = "narwhal-network"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anemo",
  "anemo-tower",
@@ -5386,7 +5386,7 @@ dependencies = [
 [[package]]
 name = "narwhal-node"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anemo",
  "arc-swap",
@@ -5435,7 +5435,7 @@ dependencies = [
 [[package]]
 name = "narwhal-primary"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anemo",
  "anemo-tower",
@@ -5483,7 +5483,7 @@ dependencies = [
 [[package]]
 name = "narwhal-storage"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "dashmap",
  "fail 0.5.1",
@@ -5505,7 +5505,7 @@ dependencies = [
 [[package]]
 name = "narwhal-types"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anemo",
  "anemo-build",
@@ -5549,7 +5549,7 @@ dependencies = [
 [[package]]
 name = "narwhal-worker"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anemo",
  "anemo-tower",
@@ -5944,7 +5944,7 @@ dependencies = [
  "proc-macro-error",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -5957,7 +5957,7 @@ dependencies = [
  "proc-macro-error",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -6016,7 +6016,7 @@ dependencies = [
  "proc-macro-crate",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -6157,7 +6157,7 @@ dependencies = [
  "pest_meta",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -6247,7 +6247,7 @@ checksum = "069bdb1e05adc7a8990dce9cc75370895fbe4e3d58b9b73bf1aee56359344a55"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -6420,7 +6420,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e97e3215779627f01ee256d2fad52f3d95e8e1c11e9fc6fd08f7cd455d5d5c78"
 dependencies = [
  "proc-macro2 1.0.51",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -6477,7 +6477,7 @@ dependencies = [
  "proc-macro-error-attr",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
  "version_check",
 ]
 
@@ -6534,7 +6534,7 @@ dependencies = [
 [[package]]
 name = "prometheus-closure-metric"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "prometheus",
@@ -6576,9 +6576,9 @@ dependencies = [
 
 [[package]]
 name = "prost"
-version = "0.11.7"
+version = "0.11.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3933d3ac2717077b3d5f42b40f59edfb1fb6a8c14e1c7de0f38075c4bac8e314"
+checksum = "e48e50df39172a3e7eb17e14642445da64996989bc212b583015435d39a58537"
 dependencies = [
  "bytes",
  "prost-derive",
@@ -6586,9 +6586,9 @@ dependencies = [
 
 [[package]]
 name = "prost-build"
-version = "0.11.7"
+version = "0.11.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a24be1d23b4552a012093e1b93697b73d644ae9590e3253d878d0e77d411b614"
+checksum = "2c828f93f5ca4826f97fedcbd3f9a536c16b12cff3dbbb4a007f932bbad95b12"
 dependencies = [
  "bytes",
  "heck 0.4.1",
@@ -6601,29 +6601,29 @@ dependencies = [
  "prost",
  "prost-types",
  "regex",
- "syn 1.0.108",
+ "syn 1.0.109",
  "tempfile",
  "which",
 ]
 
 [[package]]
 name = "prost-derive"
-version = "0.11.7"
+version = "0.11.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8e9935362e8369bc3acd874caeeae814295c504c2bdbcde5c024089cf8b4dc12"
+checksum = "4ea9b0f8cbe5e15a8a042d030bd96668db28ecb567ec37d691971ff5731d2b1b"
 dependencies = [
  "anyhow",
  "itertools",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
 name = "prost-types"
-version = "0.11.7"
+version = "0.11.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7de56acd5cc9642cac2a9518d4c8c53818905398fe42d33235859e0d542a7695"
+checksum = "379119666929a1afd7a043aa6cf96fa67a6dce9af60c88095a4686dbce4c9c88"
 dependencies = [
  "prost",
 ]
@@ -6935,7 +6935,7 @@ checksum = "6413f3de1edee53342e6138e75b56d32e7bc6e332b3bd62d497b1929d4cfbcdd"
 dependencies = [
  "pem",
  "ring",
- "time 0.3.19",
+ "time 0.3.20",
  "yasna",
 ]
 
@@ -6974,7 +6974,7 @@ checksum = "d78725e4e53781014168628ef49b2dc2fc6ae8d01a08769a5064685d34ee116c"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -7033,7 +7033,7 @@ checksum = "9f9c0c92af03644e4806106281fe2e068ac5bc0ae74a707266d06ea27bccee5f"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -7214,7 +7214,7 @@ dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
  "rustc_version 0.4.0",
- "syn 1.0.108",
+ "syn 1.0.109",
  "unicode-ident",
 ]
 
@@ -7376,7 +7376,7 @@ checksum = "107c3d5d7f370ac09efa62a78375f94d94b8a33c61d8c278b96683fb4dbf2d8d"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -7434,7 +7434,7 @@ dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
  "serde_derive_internals",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -7624,7 +7624,7 @@ checksum = "af487d118eecd09402d70a5d72551860e788df87b464af30e5ea6a38c75c541e"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -7635,7 +7635,7 @@ checksum = "85bf8229e7920a9f636479437026331ce11aa132b4dde37d121944a44d6e5f3c"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -7667,7 +7667,7 @@ checksum = "9a5ec9fa74a20ebbe5d9ac23dac1fc96ba0ecfe9f50f2843b52e537b10fbcb4e"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -7704,7 +7704,7 @@ dependencies = [
  "serde 1.0.152",
  "serde_json",
  "serde_with_macros",
- "time 0.3.19",
+ "time 0.3.20",
 ]
 
 [[package]]
@@ -7716,7 +7716,7 @@ dependencies = [
  "darling",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -8075,7 +8075,7 @@ dependencies = [
  "sha2 0.10.6",
  "sqlx-core",
  "sqlx-rt",
- "syn 1.0.108",
+ "syn 1.0.109",
  "url",
 ]
 
@@ -8165,7 +8165,7 @@ dependencies = [
  "proc-macro-error",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -8187,7 +8187,7 @@ dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
  "rustversion",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -8215,7 +8215,7 @@ checksum = "734676eb262c623cec13c3155096e08d1f8f29adce39ba17948b18dad1e54142"
 [[package]]
 name = "sui-adapter"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "bcs",
@@ -8241,7 +8241,7 @@ dependencies = [
 [[package]]
 name = "sui-config"
 version = "0.0.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anemo",
  "anyhow",
@@ -8275,7 +8275,7 @@ dependencies = [
 [[package]]
 name = "sui-core"
 version = "0.28.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "arc-swap",
@@ -8342,7 +8342,7 @@ dependencies = [
 [[package]]
 name = "sui-cost-tables"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "bcs",
@@ -8358,6 +8358,7 @@ dependencies = [
 [[package]]
 name = "sui-ctf-framework"
 version = "0.1.0"
+source = "git+https://github.com/otter-sec/sui-ctf-framework#d79992eb5ed1e7060f7ff92ca3b1c07e1b692b90"
 dependencies = [
  "clap 3.2.23",
  "move-binary-format",
@@ -8374,7 +8375,7 @@ dependencies = [
 [[package]]
 name = "sui-framework"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "bcs",
@@ -8409,7 +8410,7 @@ dependencies = [
 [[package]]
 name = "sui-framework-build"
 version = "0.0.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "fastcrypto",
@@ -8430,7 +8431,7 @@ dependencies = [
 [[package]]
 name = "sui-json"
 version = "0.0.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "bcs",
@@ -8448,7 +8449,7 @@ dependencies = [
 [[package]]
 name = "sui-json-rpc-types"
 version = "0.0.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -8476,7 +8477,7 @@ dependencies = [
 [[package]]
 name = "sui-keys"
 version = "0.0.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "bip32",
@@ -8494,7 +8495,7 @@ dependencies = [
 [[package]]
 name = "sui-macros"
 version = "0.7.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "once_cell",
  "sui-proc-macros",
@@ -8504,7 +8505,7 @@ dependencies = [
 [[package]]
 name = "sui-network"
 version = "0.0.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anemo",
  "anemo-build",
@@ -8532,19 +8533,19 @@ dependencies = [
 [[package]]
 name = "sui-proc-macros"
 version = "0.7.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "msim-macros",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
  "workspace-hack",
 ]
 
 [[package]]
 name = "sui-protocol-config"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "schemars",
  "serde 1.0.152",
@@ -8555,7 +8556,7 @@ dependencies = [
 [[package]]
 name = "sui-simulator"
 version = "0.7.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anemo",
  "anemo-tower",
@@ -8575,7 +8576,7 @@ dependencies = [
 [[package]]
 name = "sui-storage"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -8612,7 +8613,7 @@ dependencies = [
 [[package]]
 name = "sui-transactional-test-runner"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "bcs",
@@ -8639,7 +8640,7 @@ dependencies = [
 [[package]]
 name = "sui-types"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "anyhow",
  "bcs",
@@ -8689,7 +8690,7 @@ dependencies = [
 [[package]]
 name = "sui-verifier"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "move-binary-format",
  "move-bytecode-verifier",
@@ -8734,9 +8735,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "1.0.108"
+version = "1.0.109"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d56e159d99e6c2b93995d171050271edb50ecc5288fbc7cc17de8fdce4e58c14"
+checksum = "72b64191b275b66ffe2469e8af2c1cfe3bafa67b529ead792a6d0160888b4237"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
@@ -8757,7 +8758,7 @@ checksum = "f36bdaa60a83aca3921b5259d5400cbf5e90fc51931376a9bd4a0eb79aa7210f"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
  "unicode-xid 0.2.4",
 ]
 
@@ -8813,7 +8814,7 @@ dependencies = [
 [[package]]
 name = "telemetry-subscribers"
 version = "0.2.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "crossterm 0.25.0",
  "once_cell",
@@ -8827,16 +8828,15 @@ dependencies = [
 
 [[package]]
 name = "tempfile"
-version = "3.3.0"
+version = "3.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5cdb1ef4eaeeaddc8fbd371e5017057064af0911902ef36b39801f67cc6d79e4"
+checksum = "af18f7ae1acd354b992402e9ec5864359d693cd8a79dcbef59f76891701c1e95"
 dependencies = [
  "cfg-if",
  "fastrand",
- "libc",
  "redox_syscall",
- "remove_dir_all",
- "winapi",
+ "rustix",
+ "windows-sys 0.42.0",
 ]
 
 [[package]]
@@ -8924,7 +8924,7 @@ dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
  "subprocess",
- "syn 1.0.108",
+ "syn 1.0.109",
  "test-fuzz-internal",
  "toolchain_find",
  "unzip-n",
@@ -8981,7 +8981,7 @@ checksum = "1fb327af4685e4d03fa8cbcf1716380da910eeb2bb8be417e7f9fd3fb164f36f"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -9016,9 +9016,9 @@ dependencies = [
 
 [[package]]
 name = "time"
-version = "0.3.19"
+version = "0.3.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "53250a3b3fed8ff8fd988587d8925d26a83ac3845d9e03b220b37f34c2b8d6c2"
+checksum = "cd0cbfecb4d19b5ea75bb31ad904eb5b9fa13f21079c3b92017ebdf4999a5890"
 dependencies = [
  "itoa 1.0.5",
  "serde 1.0.152",
@@ -9034,9 +9034,9 @@ checksum = "2e153e1f1acaef8acc537e68b44906d2db6436e2b35ac2c6b42640fff91f00fd"
 
 [[package]]
 name = "time-macros"
-version = "0.2.7"
+version = "0.2.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a460aeb8de6dcb0f381e1ee05f1cd56fcf5a5f6eb8187ff3d8f0b11078d38b7c"
+checksum = "fd80a657e71da814b8e5d60d3374fc6d35045062245d80224748ae522dd76f36"
 dependencies = [
  "time-core",
 ]
@@ -9133,7 +9133,7 @@ checksum = "d266c00fde287f55d3f1c3e96c500c362a2b8c695076ec180f27918820bc6df8"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -9143,7 +9143,7 @@ source = "git+https://github.com/mystenmark/tokio-madsim-fork.git?rev=8b166d79d8
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -9296,7 +9296,7 @@ dependencies = [
  "proc-macro2 1.0.51",
  "prost-build",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -9409,7 +9409,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "09d48f71a791638519505cefafe162606f706c25592e4bde4d97600c0195312e"
 dependencies = [
  "crossbeam-channel",
- "time 0.3.19",
+ "time 0.3.20",
  "tracing-subscriber 0.3.16",
 ]
 
@@ -9421,7 +9421,7 @@ checksum = "4017f8f45139870ca7e672686113917c71c7a6e02d4924eda67186083c03081a"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -9489,7 +9489,7 @@ dependencies = [
  "sharded-slab",
  "smallvec",
  "thread_local",
- "time 0.3.19",
+ "time 0.3.20",
  "tracing",
  "tracing-core",
  "tracing-log",
@@ -9534,7 +9534,7 @@ checksum = "6af6ae20167a9ece4bcb41af5b80f8a1f1df981f6391189ce00fd257af04126a"
 [[package]]
 name = "typed-store"
 version = "0.4.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "async-trait",
  "bincode",
@@ -9561,11 +9561,11 @@ dependencies = [
 [[package]]
 name = "typed-store-derive"
 version = "0.3.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
  "workspace-hack",
 ]
 
@@ -9770,7 +9770,7 @@ checksum = "c2e7e85a0596447f0f2ac090e16bc4c516c6fe91771fb0c0ccf7fa3dae896b9c"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -9813,7 +9813,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "aae2faf80ac463422992abf4de234731279c058aaf33171ca70277c98406b124"
 dependencies = [
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -9940,7 +9940,7 @@ dependencies = [
  "once_cell",
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
  "wasm-bindgen-shared",
 ]
 
@@ -9974,7 +9974,7 @@ checksum = "2aff81306fcac3c7515ad4e177f521b5c9a15f2b08f4e32d823066102f35a5f6"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
  "wasm-bindgen-backend",
  "wasm-bindgen-shared",
 ]
@@ -10165,7 +10165,7 @@ dependencies = [
 [[package]]
 name = "workspace-hack"
 version = "0.1.0"
-source = "git+https://github.com/MystenLabs/sui#8984581e148025626f2ed56d80b4543316401998"
+source = "git+https://github.com/MystenLabs/sui#bafa6acaf867a7ec88c5e3c3b4221988200902ce"
 dependencies = [
  "Inflector",
  "addr2line",
@@ -10846,7 +10846,7 @@ dependencies = [
  "symbolic-common",
  "symbolic-demangle",
  "syn 0.15.44",
- "syn 1.0.108",
+ "syn 1.0.109",
  "sync_wrapper",
  "synstructure",
  "sysinfo",
@@ -10870,7 +10870,7 @@ dependencies = [
  "thread_local",
  "threadpool",
  "time 0.1.45",
- "time 0.3.19",
+ "time 0.3.20",
  "time-core",
  "time-macros",
  "tint",
@@ -10998,7 +10998,7 @@ dependencies = [
  "oid-registry",
  "rusticata-macros",
  "thiserror",
- "time 0.3.19",
+ "time 0.3.20",
 ]
 
 [[package]]
@@ -11022,7 +11022,7 @@ version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "aed2e7a52e3744ab4d0c05c20aa065258e84c49fd4226f5191b2ed29712710b4"
 dependencies = [
- "time 0.3.19",
+ "time 0.3.20",
 ]
 
 [[package]]
@@ -11042,7 +11042,7 @@ checksum = "44bf07cb3e50ea2003396695d58bf46bc9887a1f362260446fad6bc4e79bd36c"
 dependencies = [
  "proc-macro2 1.0.51",
  "quote 1.0.23",
- "syn 1.0.108",
+ "syn 1.0.109",
  "synstructure",
 ]
 

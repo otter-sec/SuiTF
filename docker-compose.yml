@@ -6,7 +6,7 @@ services:
       FLAG: SuiTF{ge7_re4dy_f0r_th3_Su1n4m1}
     build: 
       context: ./avalanche_alert/
-      dockerfile: Dockerfile
+      dockerfile: ../Dockerfile
     ports:
       - "31337:31337"
   mile_high_city:
@@ -14,7 +14,7 @@ services:
       FLAG: SuiTF{ALL_1_m1l3_l0ng_r04d5_l34d_2_DENVER}
     build: 
       context: ./mile_high_city/
-      dockerfile: Dockerfile
+      dockerfile: ../Dockerfile
     ports:
       - "31338:31337"
   your_secret_is_safe_with_us:
@@ -22,6 +22,6 @@ services:
       FLAG: SuiTF{wh3n_the_5n0w_m3l75_the_S3CR375_come_2_l1gh7}
     build: 
       context: ./your_secret_is_safe_with_us/
-      dockerfile: Dockerfile
+      dockerfile: ../Dockerfile
     ports:
       - "31339:31337"
