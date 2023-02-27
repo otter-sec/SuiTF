@@ -2,10 +2,12 @@ use std::net::{TcpStream};
 use std::io::{Read, Write};
 use std::str::from_utf8;
 use std::{error::Error, fs, io::prelude::*, io::BufReader};
+use std::env;
 
 fn main() -> Result<(), Box<dyn Error>> {
 
-    match TcpStream::connect("65.21.155.63:31339") {
+    let port = env::var("PORT").unwrap();
+    match TcpStream::connect(format!("65.21.155.63:{}", port)) {
         Ok(mut stream) => {
             println!("  - Connected!");
 

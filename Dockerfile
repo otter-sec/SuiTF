@@ -15,14 +15,24 @@ RUN mv sui /bin
 RUN git clone https://github.com/MystenLabs/sui.git --branch devnet
 RUN git clone https://github.com/otter-sec/sui-ctf-framework.git
 
-ADD ./sources/framework/chall /work/framework
+WORKDIR /work/framework
+ADD ./Cargo.toml .
+ADD ./Cargo.lock .
+
+RUN mkdir src
+RUN echo "fn main() {}" > src/main.rs
+RUN cargo build --release
+RUN rm -rf src
+
+ADD ./ /work/framework
 
 WORKDIR /work/framework/chall
 RUN sui move build
 
-ADD ./sources/ /work
-
 WORKDIR /work/framework
+
+# refresh from dummy
+RUN touch src/main.rs
 RUN cargo build --locked --release
 
 CMD cargo r --release

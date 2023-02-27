@@ -2,14 +2,16 @@ use std::net::{TcpStream};
 use std::io::{Read, Write};
 use std::str::from_utf8;
 use std::{error::Error, fs, io::prelude::*, io::BufReader};
+use std::env;
 
 fn main() -> Result<(), Box<dyn Error>> {
 
-    match TcpStream::connect("65.21.155.63:31337") {
+    let port = env::var("PORT").unwrap();
+    match TcpStream::connect(format!("65.21.155.63:{}", port)) {
         Ok(mut stream) => {
             println!("  - Connected!");
 
-            let mod_data : Vec<u8> = fs::read("/work/framework-solve/solve/build/solution/bytecode_modules/solution.mv").unwrap();
+            let mod_data : Vec<u8> = fs::read("./solve/build/solution/bytecode_modules/solution.mv").unwrap();
             println!("  - Loaded solution!");
 
             stream.write_all(&mod_data)?;

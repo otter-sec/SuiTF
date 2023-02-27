@@ -54,9 +54,22 @@ fn handle_client(mut stream: TcpStream) {
 
             // Call the solve function
             let mut args : Vec<SuiValue> = Vec::new();
+            let arg_ob = SuiValue::Object(107);
+            args.push(arg_ob);
             let ret_val = sui_ctf_framework::call_function( &mut adapter, sol_addr, "solution", "solve", args, Some("solver".to_string()));
             println!("[SERVER] This is return value {:#?}", ret_val);
             println!("");
+
+
+            // Check the solution
+            let mut args2 : Vec<SuiValue> = Vec::new();
+            let arg_ob2 = SuiValue::Object(107);
+            args2.push(arg_ob2);
+
+            let ret_val = sui_ctf_framework::call_function( &mut adapter, chall_addr, "AvalancheAlert", "check_status", args2, Some("challenge".to_string()));
+            println!("[SERVER] This is return value {:#?}", ret_val);
+            println!("");
+
 
             // Validate solution
             match ret_val {

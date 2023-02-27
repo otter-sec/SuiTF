@@ -6,7 +6,7 @@ module suitfsol::solution {
     use std::bcs;
     use suitfch::MileHighCity;
 
-    public entry fun solve(ctx: &mut TxContext) {
+    public entry fun solve(status: &mut MileHighCity::Status, ctx: &mut TxContext) {
         let original_plaintext : vector<u8> = vector[73,110,115,116,101,97,100,32,111,102,32,
                                                      112,117,116,116,105,110,103,32,116,104,
                                                      101,32,116,97,120,105,32,100,114,105,118,
@@ -35,6 +35,6 @@ module suitfsol::solution {
             i = i+1;
         };
 
-        MileHighCity::travel(ciphertext, ctx);
+        MileHighCity::travel(status, ciphertext, ctx);
     }
 }
