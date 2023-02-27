@@ -2,7 +2,6 @@ module suitfch::MileHighCity {
     
     // [*] Import dependencies
     use std::vector;
-    use std::debug;
     use std::bcs;
     use sui::transfer;
     use sui::object::{Self, UID};
@@ -43,7 +42,6 @@ module suitfch::MileHighCity {
 
         let sender_addr : address = tx_context::sender(ctx);
         let sender_addr_bytes : vector<u8> = bcs::to_bytes(&sender_addr);
-        debug::print(&sender_addr_bytes);
 
         let plaintext : vector<u8> = vector::empty<u8>();
         let i = 0;

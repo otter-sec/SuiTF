@@ -1,7 +1,6 @@
 module suitfch::AvalancheAlert {
     use sui::tx_context::{TxContext, sender};
     use std::bcs;
-    use std::debug;
     use sui::transfer;
     use sui::object::{Self, UID};
 
@@ -28,8 +27,7 @@ module suitfch::AvalancheAlert {
     public entry fun alert(status: &mut Status, value: u64, ctx: &mut TxContext) {
         
         let sender_addr : address = sender(ctx);
-        let sender_addr_bytes : vector<u8> = bcs::to_bytes(&sender_addr);
-        debug::print(&sender_addr_bytes);
+        let _sender_addr_bytes : vector<u8> = bcs::to_bytes(&sender_addr);
 
         assert!(value == 1337*1337, 0);
 

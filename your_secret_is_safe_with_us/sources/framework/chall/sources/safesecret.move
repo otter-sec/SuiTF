@@ -2,7 +2,6 @@ module suitfch::SafeSecret {
     
     // [*] Import dependencies
     use std::vector;
-    use std::debug;
 
     use sui::object::{Self, UID};
     use sui::transfer;
@@ -106,8 +105,6 @@ module suitfch::SafeSecret {
         let admin_secret2 = table::borrow(&users.users, password_hash);
 
         assert!(admin_secret2 == admin_secret1, 0);
-
-        debug::print(table::borrow(&users.users, password_hash));
 
     }
 

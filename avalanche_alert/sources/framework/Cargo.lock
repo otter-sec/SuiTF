@@ -8358,6 +8358,7 @@ dependencies = [
 [[package]]
 name = "sui-ctf-framework"
 version = "0.1.0"
+source = "git+https://github.com/otter-sec/sui-ctf-framework#e52d33047c104656bcdafa8eea5795cc8ce5892e"
 dependencies = [
  "clap 3.2.23",
  "move-binary-format",

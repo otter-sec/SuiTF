@@ -1,15 +1,11 @@
-use move_core_types::{account_address::AccountAddress, value::MoveValue};
 use std::env;
 use std::error::Error;
 use std::fmt;
 use std::io::{Read, Write};
 use std::mem::drop;
-use std::net::{Shutdown, TcpListener, TcpStream};
+use std::net::{TcpListener, TcpStream};
 use std::path::Path;
-use std::str;
 use std::thread;
-use sui_ctf_framework;
-use sui_ctf_framework::move_transactional_test_runner::framework::MoveTestAdapter;
 use sui_ctf_framework::NumericalAddress;
 use sui_transactional_test_runner::args::SuiValue;
 
@@ -21,7 +17,7 @@ fn handle_client(mut stream: TcpStream) -> Result<(), Box<dyn Error>> {
     ];
     let mut solution_data = [0 as u8; 10000];
 
-    let precompiled = sui_ctf_framework::get_precompiled(&Path::new(&format!(
+    let precompiled = sui_ctf_framework::get_precompiled(Path::new(&format!(
         "./chall/build/{}/sources/dependencies",
         chall
     )));
@@ -31,7 +27,7 @@ fn handle_client(mut stream: TcpStream) -> Result<(), Box<dyn Error>> {
         Some(vec!["challenge".to_string(), "solver".to_string()]),
     );
 
-    let solution_size = stream.read(&mut solution_data)?;
+    let _solution_size = stream.read(&mut solution_data)?;
 
     // Publish challenge module
     let mod_bytes: Vec<u8> = std::fs::read(format!(
@@ -53,7 +49,7 @@ fn handle_client(mut stream: TcpStream) -> Result<(), Box<dyn Error>> {
             chall_addr.to_string().as_str(),
             sol_addr.to_string().as_str()
         ),
-    );
+    ).unwrap();
     stream.write(output.as_bytes()).unwrap();
 
     // Call the solve function
@@ -94,15 +90,15 @@ fn handle_client(mut stream: TcpStream) -> Result<(), Box<dyn Error>> {
             println!("");
             if let Ok(flag) = env::var("FLAG") {
                 let message = format!("[SERVER] Congrats, here is the flag: {}", flag);
-                stream.write(message.as_bytes());
+                stream.write(message.as_bytes()).unwrap();
             } else {
-                stream.write("[SERVER] Flag not found, please contact admin".as_bytes());
+                stream.write("[SERVER] Flag not found, please contact admin".as_bytes()).unwrap();
             }
         }
-        Err(error) => {
+        Err(_error) => {
             println!("[SERVER] Invalid Solution!");
             println!("");
-            stream.write("[SERVER] Invalid Solution!".as_bytes());
+            stream.write("[SERVER] Invalid Solution!".as_bytes()).unwrap();
         }
     }
 
