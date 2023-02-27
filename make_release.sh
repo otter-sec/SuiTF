@@ -15,3 +15,9 @@ cd ../output
 for CHALL in {avalanche_alert,mile_high_city,your_secret_is_safe_with_us}; do
   tar xzvf $CHALL.tar.gz
 done
+
+# setup for baby_rev
+mkdir baby_rev
+cd ../baby_rev && sui move build
+cp ./build/baby_rev/bytecode_modules/chall.mv ../output/baby_rev/chall.mv
+cd ../output
