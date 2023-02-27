@@ -1,0 +1,1 @@
+../../avalanche_alert/sources/run_client.sh
