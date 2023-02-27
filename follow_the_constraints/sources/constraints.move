@@ -1,4 +1,4 @@
-module suitfch::AvalancheAlert {
+module suitfch::constraints {
 
     use std::debug;
     use std::vector;
