@@ -31,3 +31,13 @@ services:
     ports:
       - "31339:31337"
     restart: always
+  nikola_jokic_favorites:
+    environment:
+      FLAG: SuiTF{TheJokerIsASunnyBoy!WillHeWinHis3rdMVP?}
+      PORT: 31340
+    build: 
+      context: ./nikola_jokic_favorites/sources/framework
+      dockerfile: ../../../Dockerfile
+    ports:
+      - "31340:31337"
+    restart: always
